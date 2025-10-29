@@ -1,0 +1,12 @@
+interface={{AP_IF}}
+driver=nl80211
+ssid={{SSID}}
+hw_mode=g
+channel=6
+ieee80211n=1
+wmm_enabled=1
+auth_algs=1
+wpa=2
+wpa_key_mgmt=WPA-PSK
+wpa_passphrase={{PASSPHRASE}}
+rsn_pairwise=CCMP
